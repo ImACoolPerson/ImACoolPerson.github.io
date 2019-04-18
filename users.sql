@@ -5,4 +5,4 @@ CREATE TABLE users (
     PRIMARY KEY(UserNameID) 
 );
 INSERT INTO users (userName, pass) VALUES
-("mrbool","mrbool123");
+("lomayo.exe","realitycheck");
