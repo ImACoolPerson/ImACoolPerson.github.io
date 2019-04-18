@@ -1,10 +1,8 @@
 CREATE TABLE users (
-    id INTEGER PRIMARY KEY,
-    username TEXT,
-    password TEXT
+    UserNameID int(9) NOT NULL auto_increment, 
+    userName VARCHAR(40) NOT NULL, 
+    pass VARCHAR(40) NOT NULL, 
+    PRIMARY KEY(UserNameID) 
 );
-INSERT INTO users VALUES (
-    1, 
-    "lomayo.exe", 
-    "realitycheck"
-);
+INSERT INTO users (userName, pass) VALUES
+("mrbool","mrbool123");
